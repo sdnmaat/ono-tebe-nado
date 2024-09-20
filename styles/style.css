@@ -1,1 +1,307 @@
 /* место для вашего кода */
+.header {
+    width: 1052px;
+    margin: auto;
+    margin-top: 92px;
+    height: 105px;
+}
+.header__menu {
+    display: flex;
+}
+.header__links-list {
+    display: flex;
+    margin-left: 26px;
+    gap: 13px;
+    list-style-position: inside;
+    margin-top: 44px;
+}
+.header__links-list-item:before {
+    content: "○";
+    margin-right: 11px;
+}
+.header__links-list-item {
+    list-style-type: none;
+}
+.header__links-list-item_no-bullit::before {
+    content: "";
+}
+.header__link {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+.header__link_active {
+    text-decoration: none;
+}
+.header__address {
+    margin-left: 184px;
+    margin-top: 5px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+}
+.header__logo {
+    margin-left: 36px;
+}
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+    background-image: url(../images/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+.cover {
+    width: 1110px;
+    height: 780px;
+    margin: auto;
+    margin-top: 96px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 179px;
+}
+.overlay {
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.cover__title-box {
+    width: 1080px;
+    height: 165px;
+    padding-top: 165px;
+    padding-left: 50px;
+}
+.cover__title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    color: #fff;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aligned-text {
+    text-align: left;
+}
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+.aligned-text_center {
+    margin: auto;
+}
+.aligned-text_right {
+    align-self: flex-end;
+}
+.cover__bottom-box {
+    padding-top: 512px;
+    padding-left: 78px;
+    display: flex;
+    gap: 79px;
+}
+.cover__description {
+    padding-top: 12px;
+}
+.cover__description-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+.cover__description-text_whitespace {
+    letter-spacing: 0.9em;
+}
+.bet-button {
+    background-color: transparent;
+    width: 256px;
+    height: 51px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lots { 
+    margin: auto;
+    margin-bottom: 146px;
+    width: 1052px;
+    height: 692px;
+}
+.lots__heading {
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.lots__card-list-item {
+    list-style: none;
+}
+.card-link {
+    text-decoration: none;
+}
+.card {
+    width: 334px;
+    height: 563px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+}
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+}
+.card__content {
+    width: 254px;
+    height: 524px;
+    margin: auto;
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.card__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.lots__look-more-link {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: left;
+}
+.about {
+    width: 1052px;
+    height: 595px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+.about__columns-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-left: 47px;
+    margin-top: 35px;
+    align-items: center;
+}
+.about__logo {
+    width: 240px;
+}
+.about__logo-image {
+    width: 240px;
+    height: 240px;
+    background-image: url(../images/logo-column.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about__title {
+    margin-left: 72px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+}
+.about__column {
+    width: 765px;
+}
+.about__text {
+    margin-left: 72px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    box-sizing: content-box;
+}
+.about__column-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer {
+    width: 1000px;
+    height: 98px;
+    margin: auto;
+    margin-bottom: 88px;
+    display: flex;
+}
+.footer__menu {
+    margin-left: 185px;
+}
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__menu-list-item {
+    list-style: none;
+}
+.footer__menu-link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-decoration: underline;
+}
+.footer__menu-link_active {
+    text-decoration: none;
+}
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    margin-left: 185px;
+}
+.footer__social-list-item {
+    list-style: none;
+    display: flex;
+}
+.footer__social-link {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__social-link_youtube {
+    background-image: url(../images/yt.svg);
+}
+.footer__social-link_vk {
+    background-image: url(../images/vk.svg);
+}
+.footer__social-link_pinterest {
+    background-image: url(../images/pinterest.svg);
+}
