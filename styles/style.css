@@ -263,7 +263,7 @@
     display: flex;
 }
 .footer__menu {
-    margin-left: 205px;
+    margin-left: 200px;
 }
 .footer__menu-list {
     display: flex;
@@ -285,8 +285,8 @@
 }
 .footer__social-list {
     display: flex;
-    gap: 48px;
-    margin-left: 190px;
+    gap: 46px;
+    margin-left: 186px;
 }
 .footer__social-list-item {
     list-style: none;
